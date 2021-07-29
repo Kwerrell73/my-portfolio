@@ -6,7 +6,7 @@ function Contact() {
     return (
 
     
-        <div>
+        <div id = "contact-me">
 
             <h2>Contact</h2>  
             

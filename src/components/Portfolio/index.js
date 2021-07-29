@@ -7,6 +7,7 @@ function Portfolio() {
 
 
         <section id="work" class="container">
+          
             <div class="row">
                 <div class="col">
                     <h2>Work</h2>

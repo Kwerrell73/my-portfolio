@@ -24,6 +24,20 @@
   color: white;
 }
 
+nav ul li {
+  list-style-type: none;
+  text-decoration: solid underline;
+  text-align: rightnav;
+  
+}
+header nav ul li a {
+  margin: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.05vw;
+  display: flex;
+  flex-direction: row;
+}
+
 .App-link {
   color: #61dafb;
 }
