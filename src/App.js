@@ -3,7 +3,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
-import Nav from './components/Nav';
+import Header from './components/Header';
 //import logo from './logo.svg';
 import './App.css';
 
@@ -11,15 +11,13 @@ import './App.css';
 function App() {
   return (
     <p>
-      <Nav/>
-      <About>
-      </About>
-      <Portfolio>
-      </Portfolio>
-      <Contact>
-      </Contact>
-      <Resume>
-      </Resume>
+      <Header/>
+      <About />
+      <Resume />
+      <Portfolio />
+      <Contact />
+
+
 
     </p>
 

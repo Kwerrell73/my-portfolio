@@ -7,9 +7,10 @@ function Resume() {
 
         <section>
 
-                
+<div class="col-sm">
+  
                         <h2>Resume</h2>
-                        <div class="col-sm">
+                       
         <div id="resume" class="container">
           <div class="card text-left border border-primary bg-secondary">
             <div class="card-body text-left">

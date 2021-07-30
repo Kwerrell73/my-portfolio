@@ -6,13 +6,17 @@ function Portfolio() {
     return (
 
 
-        <section id="work" class="container">
-          
+        <section >
+
+
+            <br></br>
+            <br></br>
+            <h2>Work</h2>
+
+            <br></br>
+            <br></br>
             <div class="row">
                 <div class="col">
-                    <h2>Work</h2>
-
-
 
                     <h3 class="projectlabelone">Run Buddy Project:</h3>
                     <div class="projectcontainer">
@@ -22,7 +26,7 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-
+            <br></br>
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -56,6 +60,7 @@ function Portfolio() {
 
                 </div>
             </div>
+            <br></br>
             <div class="container">
                 <div class="row">
                     <div class="col-sm">

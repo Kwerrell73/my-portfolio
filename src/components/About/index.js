@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import KelW3 from "../../img/KelW3.jpg";
 function About() {
     return (
 
@@ -11,7 +11,7 @@ function About() {
                     <div class="row">
                         <div class="col-sm">
 
-                            <img src="img/KelW3.jpg" class="float-left" alt="headshot of developer" />
+                            <img src={KelW3} className="my-2" style={{ width: "50%" }} class="float-left" alt="headshot of developer" />
                       
                         </div>
 

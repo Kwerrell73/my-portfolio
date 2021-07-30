@@ -7,7 +7,8 @@ function Contact() {
 
     
         <div id = "contact-me">
-
+<br></br>
+<br></br>
             <h2>Contact</h2>  
             
                 <br></br>
@@ -20,6 +21,9 @@ function Contact() {
                         <br></br>
                         <a class="nav-link active text-left"
                             href="https://www.linkedin.com/in/kellie-werrell/">Linkedin
+                            Profile</a>
+                            <a class="nav-link active text-left"
+                            href="https://https://github.com/Kwerrell73">GitHub
                             Profile</a>
                     </p>
           
