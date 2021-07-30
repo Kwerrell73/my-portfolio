@@ -8,8 +8,10 @@ function Resume() {
 
         <section>
 
+
 <div class="col-sm">
-  
+  <br></br>
+  <br></br>
                         <h2>Resume</h2>
                        
         <div id="resume" class="container">
@@ -17,7 +19,7 @@ function Resume() {
             <div class="card-body text-left">
               <h5 class="card-title">Resume:</h5>
               
-                <a class="nav-link active" href={resumePDF}>My
+                <a id= "resume" class="nav-link active" href={resumePDF}>My
                   Resume</a>
               
             </div>
