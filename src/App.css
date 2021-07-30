@@ -7,8 +7,80 @@
       
   }
 
+  header {
+    padding: 5px 20px 10px 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 6px;    
+    align-items: flex-start;    
+    
+  }
+
+  #headerName {
+    color: white;
+
+   
+  }
+
+  header li {
+    text-align: right;
+  }
+  
+   ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    font-weight: bold;
+  
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    text-decoration: solid underline;
+    text-align: rightnav;
+    
+  }
+  header nav ul li a {
+    margin: 10px 15px;
+    color: white;
+    font-size: 1.05vw;
+  }
+
+  header ul li:hover{
+    background: #808080;   
+    color: white;
+    text-shadow: none;
+    border-radius: 15px;
+  }
+  
+#link:hover{
+    background: #3f42e4;
+    color: white;
+    text-shadow: none;
+    border-radius: 15px;
+  }
+  
+
   #resume{
     color: white;
+  }
+
+  #resume2{
+    color: white;
+  }
+
+  #resume2:hover{
+    background: #3f42e4;
+    color: white;
+    text-shadow: none;
+    border-radius: 15px;
   }
 
   .projectcontainer{

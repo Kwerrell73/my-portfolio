@@ -41,7 +41,7 @@ function App() {
           {!contactSelected ? (
             <>
               <About currentCategory={currentCategory}></About>
-              <About></About>
+         
             </>
           ) : (
             <ContactForm></ContactForm>

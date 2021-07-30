@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 import "../../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -90,24 +90,34 @@ function Contact() {
         <div id="contact-me">
             <br></br>
             <br></br>
-            <h2>Contact</h2>
+            <h2>Contact:</h2>
 
             <br></br>
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
+                    <div id="contact-me" class="container">
+            <div class="card bg-secondary text-left border border-primary contact-me-card">
+              <div class="card-body text-left">
+                <h5 class="card-title text-white">Contact Me:</h5>
 
-                        <p>
+                        <p class="text-white">
                             Phone: 602.577.0789
                             <br></br>
                             Email: kelliewerrell@gmail.com
-                           
-                            <a class="nav-link active text-left"
+                            
+                           <div class="row card-body text-center">
+                             <h5>View my profiles:</h5>
+                            <a class="nav-link active text-left text-white" id="link"
                                 href="https://www.linkedin.com/in/kellie-werrell/">Linkedin
                                 Profile</a>
-                            <a class="nav-link active text-left"
+                            <a class="nav-link active text-left text-white" id="link"
                                 href="https://github.com/Kwerrell73">GitHub
                                 Profile</a>
+                            <a class="nav-link active text-left text-white" id="link"
+                                href="https://stackoverflow.com/users/15286252/kellie-werrell">Stackoverflow
+                                Profile</a>     
+                                </div>
                         </p>
 
 
@@ -115,6 +125,9 @@ function Contact() {
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
 
 

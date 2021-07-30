@@ -2,6 +2,8 @@ import React from 'react';
 import "../../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import KelW3 from "../../img/KelW3.jpg";
+
+
 function About() {
     return (
 
@@ -10,14 +12,14 @@ function About() {
                 <div id="about-me" class="container">
                     <div class="row">
                         <div class="col-sm">
-
+<br></br>
                             <img src={KelW3} className="my-2" style={{ width: "50%" }} class="float-left" alt="headshot of developer" />
                       
                         </div>
 
                         <div class="col-sm about-me-text">
 
-
+                        <br></br>
                             <h2>About Me</h2>
                             <br></br>
                             <p>

@@ -5,9 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
 return (
 
-    <header class="header sticky sticky--top js-header">
+  
+    <header>
+
     <h1>
-      <a class="text-white" href="/">Werrell</a>
+      <a id="headerName" href="/">Werrell</a>
     </h1>
 
 <nav>
@@ -22,11 +24,12 @@ return (
     <a  href="#work">Portfolio</a>
   </li>
   <li>
-    <a  href="#contact-me">Contact</a>
-  </li>
-  <li>
     <a  href="#resume">Resume</a>
   </li>
+  <li>
+    <a  href="#contact-me">Contact</a>
+  </li>
+ 
 </ul>
 </nav>
 
