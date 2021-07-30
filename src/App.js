@@ -13,8 +13,8 @@ function App() {
     <p>
       <Header/>
       <About />
-      <Resume />
       <Portfolio />
+      <Resume />
       <Contact />
 
 

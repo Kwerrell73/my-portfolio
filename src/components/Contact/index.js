@@ -23,7 +23,7 @@ function Contact() {
                             href="https://www.linkedin.com/in/kellie-werrell/">Linkedin
                             Profile</a>
                             <a class="nav-link active text-left"
-                            href="https://https://github.com/Kwerrell73">GitHub
+                            href="https://github.com/Kwerrell73">GitHub
                             Profile</a>
                     </p>
           

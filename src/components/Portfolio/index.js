@@ -1,12 +1,13 @@
 import React from 'react';
 import "../../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import moodboost from "../../img/moodboost2.png";
 
 function Portfolio() {
     return (
 
 
-        <section >
+        <section>
 
 
             <br></br>
@@ -19,7 +20,9 @@ function Portfolio() {
                 <div class="col">
 
                     <h3 class="projectlabelone">Run Buddy Project:</h3>
-                    <div class="projectcontainer">
+                    <div  style={{
+                            backgroundImage: `url("https://i.imgur.com/rgmEfEJ.png")`
+                        }} class="projectcontainer">
                         <p>
                             <a href="https://kwerrell73.github.io/run-buddy/">Run Buddy</a>
                         </p>
@@ -31,9 +34,12 @@ function Portfolio() {
                 <div class="row">
                     <div class="col-sm">
                         <h3 class="projectlabelthree">Mood Boost:</h3>
-                        <div class="smallphotosthree">
+                        <div style={{
+                            backgroundImage: `url("https://i.imgur.com/gAdynxh.png")`
+                        }} class="smallphotosthree">
 
                             <a href="https://kwerrell73.github.io/mood-boost/">Mood Boost</a>
+                            <img src={moodboost} className="my-2" style={{ width: "50%" }} class="float-left" alt="screenshot of app" />
                         </div>
 
                     </div>
@@ -42,7 +48,9 @@ function Portfolio() {
 
                     <div class="col-sm">
                         <h3 class="projectlabelthree">myMovieList:</h3>
-                        <div class="smallphotosMovie">
+                        <div style={{
+                            backgroundImage: `url("https://i.imgur.com/XqS7fp6.png")`
+                        }} class="smallphotosthree">
 
                             <a href="https://mymovielistapp.herokuapp.com/">myMovieList</a>
                         </div>
@@ -51,7 +59,9 @@ function Portfolio() {
 
                     <div class="col-sm">
                         <h3 class="projectlabeltwo">Password Generator:</h3>
-                        <div class="smallphotostwo">
+                        <div style={{
+                            backgroundImage: `url("https://i.imgur.com/4LXVgBj.png")`
+                        }} class="smallphotosthree">
 
                             <a href="https://kwerrell73.github.io/password-generator/">Password Generator</a>
 
@@ -65,7 +75,10 @@ function Portfolio() {
                 <div class="row">
                     <div class="col-sm">
                         <h3 class="projectlabelthree">Weather Dashboard:</h3>
-                        <div class="smallphotosfour">
+                        <div style={{
+                            backgroundImage: `url("https://i.imgur.com/PNrmqda.png")`
+                        }} class="smallphotosthree">
+                   
 
                             <a href="https://kwerrell73.github.io/weather-dashboard/">Weather Dashboard</a>
                         </div>
@@ -74,7 +87,9 @@ function Portfolio() {
                     </div>
                     <div class="col-sm">
                         <h3 class="projectlabelthree">Memory Game:</h3>
-                        <div class="smallphotosfive">
+                        <div style={{
+                            backgroundImage: `url("https://i.imgur.com/gg2v5M3.png")`
+                        }} class="smallphotosthree">
 
                             <a href=" https://kwerrell73.github.io/memory-game/">Memory Game</a>
                         </div>
@@ -83,7 +98,11 @@ function Portfolio() {
 
                     <div class="col-sm">
                         <h3 class="projectlabeltwo">Work Day Scheduler:</h3>
-                        <div class="smallphotossix">
+                        <div style={{
+                            backgroundImage: `url("https://i.imgur.com/DioNYlv.png")`
+                        }} class="smallphotosthree">
+
+
                             <p>
                                 <a id="workday" href="https://kwerrell73.github.io/work-day-scheduler/">Work
                                     Day</a>

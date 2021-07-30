@@ -32,9 +32,8 @@ function About() {
                                 worldwide pandemic in 2020, I was placed on furlough.Over the past year, I've worked diligently to build
                                 my
                                 technical
-                                skillset.I'm currently studying Full Stack Development, with focus on HTML, CSS, JavaScript, Kubernetes
-                                and
-                                Docker. It's my dream to rebuild my career as a successful
+                                skillset.I'm currently studying Full Stack Development, with focus on HTML, CSS, JavaScript, MongoDB
+                                and React. It's my dream to rebuild my career as a successful
                                 developer.
                             </p >
          
