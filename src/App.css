@@ -29,6 +29,11 @@
    
   }
 
+  footer {
+    align-items: flex-start;
+    padding: 20px;
+  }
+
   header li {
     text-align: right;
   }
