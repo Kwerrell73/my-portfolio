@@ -29,7 +29,7 @@ function Resume() {
                 <h5>Skills:</h5>
                 <br></br>
                 <div id="resume" className="container">
-                  <div className="card text-left bg-secondary">
+                  <div className="card text-left ">
                     <div className="card-body text-left">
                      <p className="skills">HTMl, CSS, JavaScript, Node, Express, Sequelize, mySQL, MongoDB, React, Git, GitHub, Heroku, MS Office  </p>
 

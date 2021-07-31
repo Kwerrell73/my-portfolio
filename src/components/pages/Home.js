@@ -12,6 +12,7 @@ const Home = () => (
                 <div className="row">
                     <div className="col-sm" id="headshot">
                         <br></br>
+                        <br></br>
                         <img src={KelW3} className="my-2" style={{ width: "50%" }} className="float-left" alt="headshot of developer" />
 
                     </div>

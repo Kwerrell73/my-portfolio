@@ -76,7 +76,7 @@
    padding: auto;
    color: white;
    text-align: left;
-   font-size: 38px;
+   font-size: 38x;
    text-shadow: grey, white, teal, grey;
   }
   
@@ -110,20 +110,34 @@
 
   .bio {
     font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
 
   }
 
   .family {
     font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
   }
 
   .skills{
-    font-size: 20px;
+    font-size: 22px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    
   }
 
-  #resumetext{
+  #resume2{
     text-shadow: white;
-    border: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+
   }
 
   #resume2:hover{
