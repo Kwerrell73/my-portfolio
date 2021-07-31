@@ -4,13 +4,13 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['Home', 'Portfolio', 'Resume','Contact'];
   return (
-    <header class="container">
-      <div class="row justify-content-between">
+    <header className="container">
+      <div className="col justify-content-between">
         
           <h2 id="headername"> Werrell</h2>
         
         
-          <ul class="bullet">
+          <ul id = "navtabs" className="bullet">
 
             {tabs.map(tab => (
               <li className="nav-item" key={tab}>
@@ -34,9 +34,7 @@ function NavTabs(props) {
 
 
 
-      <div>
-
-      </div>
+   
     </header>
   );
 }

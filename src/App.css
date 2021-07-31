@@ -75,7 +75,9 @@
   #headername {
    padding: auto;
    color: white;
-   text-align: left
+   text-align: left;
+   font-size: 38px;
+   text-shadow: grey, white, teal, grey;
   }
   
 #link:hover{
@@ -83,6 +85,12 @@
     color: white;
     text-shadow: none;
     border-radius: 15px;
+  }
+
+  #navtabs {
+  border: white;
+  text-shadow: white;
+  color: black;
   }
   
 

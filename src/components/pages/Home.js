@@ -6,25 +6,25 @@ import KelW3 from "../../img/KelW3.jpg";
 
 
 const Home = () => (
-    <section class="content">
-        <section class="hero">
-            <div id="about-me" class="container">
-                <div class="row">
-                    <div class="col-sm" id="headshot">
+    <section className="content">
+        <section className="hero">
+            <div id="about-me" className="container">
+                <div className="row">
+                    <div className="col-sm" id="headshot">
                         <br></br>
-                        <img src={KelW3} className="my-2" style={{ width: "50%" }} class="float-left" alt="headshot of developer" />
+                        <img src={KelW3} className="my-2" style={{ width: "50%" }} className="float-left" alt="headshot of developer" />
 
                     </div>
 
-                    <div class="col-sm about-me-text">
+                    <div className="col-sm about-me-text">
 
 
                         <br></br>
-                        <p class="aboutmeName">
+                        <p className="aboutmeName">
                             <strong>Name: </strong> Kellie Werrell
                         </p>
                         <br></br>
-                        <p class="bio">
+                        <p className="bio">
                             <strong>Bio: </strong>
 
                             For the past 28 years, I've worked as both an account and project manager in the travel industry. Due to
@@ -37,7 +37,7 @@ const Home = () => (
                             developer.
                         </p >
                         <br></br>
-                        <p class="family">
+                        <p className="family">
                             <strong>Family: </strong>
 
                             I've been married to my husband Jeff for the past 17 years.  We live in Cave Creek, AZ.  We have no children of our own,

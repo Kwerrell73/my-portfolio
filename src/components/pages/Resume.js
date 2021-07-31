@@ -9,29 +9,29 @@ function Resume() {
     <section>
 
 
-      <div class="col-sm">
+      <div className="col-sm">
         <br></br>
         <br></br>
         <div>
       
 
-          <div id="resume" class="container">
-            <div class="card text-left border bg-primary">
-              <div class="card-body text-left">
-                <h5 class="card-title text-white">Resume:</h5>
+          <div id="resume" className="container">
+            <div className="card text-left border bg-primary">
+              <div className="card-body text-left">
+                <h5 className="card-title text-white">Resume:</h5>
                 <br></br>
 
-                <a id="resume2" class="nav-link active" href={resumePDF}>***Click here to view or download my
+                <a id="resume2" className="nav-link active" href={resumePDF}>***Click here to view or download my
                   resume.***</a>
 <br></br>
 <br></br>
 <br></br>
                 <h5>Skills:</h5>
                 <br></br>
-                <div id="resume" class="container">
-                  <div class="card text-left bg-secondary">
-                    <div class="card-body text-left">
-                     <p class="skills">HTMl, CSS, JavaScript, Node, Express, Sequelize, mySQL, MongoDB, React, Git, GitHub, Heroku, MS Office  </p>
+                <div id="resume" className="container">
+                  <div className="card text-left bg-secondary">
+                    <div className="card-body text-left">
+                     <p className="skills">HTMl, CSS, JavaScript, Node, Express, Sequelize, mySQL, MongoDB, React, Git, GitHub, Heroku, MS Office  </p>
 
                     </div>
                   </div>
