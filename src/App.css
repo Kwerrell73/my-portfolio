@@ -96,6 +96,19 @@
 
   }
 
+  .aboutmeName {
+    font-size: 25px;
+  }
+
+  .bio {
+    font-size: 20px;
+
+  }
+
+  .family {
+    font-size: 20px;
+  }
+
   .skills{
     font-size: 20px;
   }
