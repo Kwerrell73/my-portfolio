@@ -42,7 +42,7 @@ const Home = () => (
                             <strong>Family: </strong>
 
                             I've been married to my husband Jeff for the past 17 years.  We live in Cave Creek, AZ.  We have no children of our own,
-                            but we adopted my niece and helped raise her.  We have a poodle mix rescue dog, and enjoy walks in the park, family time,
+                            but we adopted my niece and helped raise her.  We have a poodle mix rescue dog named Bandit. I enjoy walks in the park, family time,
                             and nature.  My happy place is the beach and Muir Woods.
                         </p >
 

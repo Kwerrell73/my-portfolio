@@ -76,7 +76,7 @@
    padding: auto;
    color: white;
    text-align: left;
-   font-size: 38x;
+   font-size: 38px;
    text-shadow: grey, white, teal, grey;
   }
   
@@ -91,6 +91,7 @@
   color: white;
   font-size: 20px;
   text-shadow: black;
+
   }
   
 

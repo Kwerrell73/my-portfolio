@@ -19,7 +19,9 @@
 <br>   
 
 ## User Story
-As a user, I want to enter deposits and expenses in a budget tracking app.  The app should allow for both online, and offline functionality.  When entering transactions offline, the data is cached.  When brought back online, the offline entries should be added to tracker, and the new total should populate. 
+As an employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
 
 
 <br>
@@ -46,12 +48,13 @@ https://infinite-falls-12185.herokuapp.com/
 <br>
 
 ## Screenshots
-![](./public/images/screenshots/MainPage.png)
-![](./public/images/screenshots/ServiceWorkerRegistered.png)
-![](./public/images/screenshots/Offline.png)
-![](./public/images/screenshots/OfflineTwo.png)
-![](./public/images/screenshots/CachedDataAdded.png)
-![](./public/images/screenshots/Final.png)
+![](./public/images/screenshots/HomePage.png)
+![](./public/images/screenshots/PortfolioPage.png)
+![](./public/images/screenshots/ResumePage1.png)
+![](./public/images/screenshots/ResumePage2.png)
+![](./public/images/screenshots/ContactPage.png)
+![](./public/images/screenshots/Contactpage2.png)
+
 
 
 ## Contribution
