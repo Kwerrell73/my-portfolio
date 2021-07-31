@@ -3,7 +3,9 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Footer from './Footer'
+
 
 function MainPage() {
   // Using useState, set the default value for currentPage to 'Home'
@@ -14,6 +16,8 @@ function MainPage() {
     switch (currentPage) {
       case 'Portfolio':
         return <Portfolio />;
+        case 'Resume':
+        return <Resume />;
       case 'Contact':
         return <Contact />;
       default:
