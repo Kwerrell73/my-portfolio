@@ -16,7 +16,7 @@ function Resume() {
       
 
           <div id="resume" className="container">
-            <div className="card text-left border bg-primary">
+            <div className="card text-left border bg-secondary">
               <div className="card-body text-left">
                 <h5 className="card-title text-white">Resume:</h5>
                 <br></br>

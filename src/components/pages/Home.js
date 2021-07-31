@@ -10,9 +10,10 @@ const Home = () => (
         <section className="hero">
             <div id="about-me" className="container">
                 <div className="row">
-                    <div className="col-sm" id="headshot">
+                    <div className="col-sm" >
                         <br></br>
                         <br></br>
+                                     
                         <img src={KelW3} className="my-2" style={{ width: "50%" }} className="float-left" alt="headshot of developer" />
 
                     </div>
@@ -25,7 +26,7 @@ const Home = () => (
                             <strong>Name: </strong> Kellie Werrell
                         </p>
                         <br></br>
-                        <p className="bio">
+                        <p className="bio bg-secondary text-white">
                             <strong>Bio: </strong>
 
                             For the past 28 years, I've worked as both an account and project manager in the travel industry. Due to
@@ -38,7 +39,7 @@ const Home = () => (
                             developer.
                         </p >
                         <br></br>
-                        <p className="family">
+                        <p className="family bg-primary text-white">
                             <strong>Family: </strong>
 
                             I've been married to my husband Jeff for the past 17 years.  We live in Cave Creek, AZ.  We have no children of our own,
