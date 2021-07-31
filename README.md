@@ -42,7 +42,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 <br>
 
 ## Deployment
-https://infinite-falls-12185.herokuapp.com/TBD*****
+https://kwerrell73.github.io/my-portfolio/
 
 
 <br>
