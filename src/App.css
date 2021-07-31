@@ -88,9 +88,9 @@
   }
 
   #navtabs {
-  border: white;
-  text-shadow: white;
-  color: black;
+  color: white;
+  font-size: 20px;
+  text-shadow: black;
   }
   
 

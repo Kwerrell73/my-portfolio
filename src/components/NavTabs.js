@@ -4,7 +4,9 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['Home', 'Portfolio', 'Resume','Contact'];
   return (
-    <header className="container">
+    <header  style={{
+      backgroundImage: `url("https://i.imgur.com/zz5jARB.jpg")`
+  }}className="container">
       <div className="col justify-content-between">
         
           <h2 id="headername"> Werrell</h2>
@@ -14,7 +16,7 @@ function NavTabs(props) {
 
             {tabs.map(tab => (
               <li className="nav-item" key={tab}>
-                <a
+                <a id= "navtabs" className=" col justify-content-between"
                   href={'#' + tab.toLowerCase()}
                   // Whenever a tab is clicked on,
                   // the current page is set through the handlePageChange props.
