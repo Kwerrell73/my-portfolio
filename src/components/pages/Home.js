@@ -10,7 +10,7 @@ const Home = () => (
             <section class="hero">
                 <div id="about-me" class="container">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-sm" id="headshot">
 <br></br>
                             <img src={KelW3} className="my-2" style={{ width: "50%" }} class="float-left" alt="headshot of developer" />
                       
@@ -36,6 +36,14 @@ const Home = () => (
                                 skillset.I'm currently studying Full Stack Development, with focus on HTML, CSS, JavaScript, MongoDB
                                 and React. It's my dream to rebuild my career as a successful
                                 developer.
+                            </p >
+
+                            <p>
+                                <strong>Family: </strong>
+
+                                I've been married to my husband Jeff for the past 17 years.  We live in Cave Creek, AZ.  We have no children of our own,
+                                 but we adopted my niece and helped raise her.  We have a poodle mix rescue dog, and enjoy walks in the park, family time, 
+                                 and nature.  My happy place is the beach and Muir Woods.
                             </p >
          
          </div>

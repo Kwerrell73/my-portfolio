@@ -20,6 +20,7 @@
     border-width: 3px;
     border-radius: 6px;    
     align-items: flex-start;    
+    height: 115px;
     
   }
 
@@ -28,10 +29,12 @@
 
    
   }
+  
+
 
   footer {
     padding: 20px;
-    height: 65px;
+    height: 45px;
      display: flex; 
     align-items: center; 
     justify-content: center; 
@@ -89,6 +92,17 @@
 
   #resume2{
     color: white;
+    font-size: 26px;
+
+  }
+
+  .skills{
+    font-size: 20px;
+  }
+
+  #resumetext{
+    text-shadow: white;
+    border: white;
   }
 
   #resume2:hover{
