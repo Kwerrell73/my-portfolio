@@ -30,8 +30,12 @@
   }
 
   footer {
-    align-items: flex-start;
     padding: 20px;
+    height: 65px;
+     display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
   }
 
   header li {
@@ -63,6 +67,12 @@
     color: white;
     text-shadow: none;
     border-radius: 15px;
+  }
+
+  #headername {
+   padding: auto;
+   color: white;
+   text-align: left
   }
   
 #link:hover{
@@ -115,6 +125,10 @@
  
         
             }
+
+.bullet {
+  list-style-type: none;
+}            
 
 .App {
   text-align: center;
