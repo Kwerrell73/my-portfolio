@@ -24,7 +24,7 @@ const Portfolio = () => (
                             <a href="https://kwerrell73.github.io/run-buddy/">Run Buddy</a>
                         </p>
                     </div>
-                    <a class ="text-white text-center" href="https://github.com/Kwerrell73/memory-game">Github Repo</a>
+                    <a class ="text-white text-center" href="https://github.com/Kwerrell73/run-buddy">Github Repo</a>
                 </div>
             </div>
             <br></br>
@@ -39,7 +39,7 @@ const Portfolio = () => (
                             <a href="https://kwerrell73.github.io/mood-boost/">Mood Boost</a>
                             <img src={moodboost} className="my-2" style={{ width: "50%" }} class="float-left" alt="screenshot of app" />
                         </div>
-                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/memory-game">Github Repo</a>
+                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/mood-boost">Github Repo</a>
                     </div>
 
 
@@ -52,7 +52,7 @@ const Portfolio = () => (
 
                             <a href="https://mymovielistapp.herokuapp.com/">myMovieList</a>
                         </div>
-                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/memory-game">Github Repo</a>
+                        <a class ="text-white text-center" href="https://github.com/jbryant4/Project2-Group1">Github Repo</a>
                     </div>
 
                     <div class="col-sm">
@@ -64,7 +64,7 @@ const Portfolio = () => (
                             <a href="https://kwerrell73.github.io/password-generator/">Password Generator</a>
 
                         </div>
-                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/memory-game">Github Repo</a>
+                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/password-generator">Github Repo</a>
                     </div>
 
                 </div>
@@ -81,7 +81,7 @@ const Portfolio = () => (
 
                             <a href="https://kwerrell73.github.io/weather-dashboard/">Weather Dashboard</a>
                         </div>
-                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/memory-game">Github Repo</a>
+                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/weather-dashboard">Github Repo</a>
 
                     </div>
                     <div class="col-sm">
@@ -108,7 +108,7 @@ const Portfolio = () => (
                                     Day</a>
                             </p>
                         </div>
-                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/memory-game">Github Repo</a>
+                        <a class ="text-white text-center" href="https://github.com/Kwerrell73/work-day-scheduler">Github Repo</a>
                     </div>
 
 
