@@ -39,8 +39,7 @@ function ContactForm() {
     return (
         <section className="container">
             <br></br>
-            <h2 data-testid='h1tag'
-                className="top-title">Contact Form</h2>
+            <h2>Contact Form</h2>
             <hr></hr>
 
             <form className="justify-content-center"
@@ -48,13 +47,15 @@ function ContactForm() {
 
                 <div className="mt-5" >
                     <label htmlFor="name">Name:</label>
-                    <input className="form-control" type="text" name="name"
+                    <input className="form-control"
+                        type="text" name="name"
                         defaultValue={name} onBlur={handleChange} />
                 </div>
 
                 <div className="mt-5" >
                     <label htmlFor="email">Email Address:</label>
-                    <input className="form-control" type="email" name="email"
+                    <input className="form-control"
+                        type="email" name="email"
                         defaultValue={email} onBlur={handleChange} />
                 </div>
 
@@ -71,7 +72,8 @@ function ContactForm() {
                 )}
 
                 <div className="mt-5 mb-5" >
-                    <button data-testid='button' className="btn btn-outline-dark " type="submit"
+                    <button className="btn btn-outline-dark "
+                        type="submit"
                         onSubmit={handleSubmit}>Submit</button>
                 </div>
 
