@@ -79,6 +79,7 @@
    font-size: 38px;
    text-shadow: grey, white, teal, grey;
    display: flex;
+   flex-direction: row;
   }
   
 #link:hover{
@@ -224,8 +225,11 @@
 
 @media screen and (max-width:500px){
    #navtabs{
-     font-size:12px;
+     font-size:09px;
    }
+   #headername{
+    font-size:20px;
+  }
 
 
 }
