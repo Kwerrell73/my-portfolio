@@ -78,6 +78,7 @@
    text-align: left;
    font-size: 38px;
    text-shadow: grey, white, teal, grey;
+   display: flex;
   }
   
 #link:hover{
@@ -91,6 +92,7 @@
   color: white;
   font-size: 20px;
   text-shadow: black;
+  display: flex;
 
   }
   
@@ -219,3 +221,93 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width:500px){
+   #navtabs{
+     font-size:12px;
+   }
+
+
+}
+
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+     
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+     
+    }
+  
+    footer h2 {
+      text-align: center;
+      width: 100%;
+    }
+    
+    
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+      .container h2 {
+        flex: 1 100%;
+        text-align: center;
+      }
+    
+      .projectcontainer p {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+      }
+    
+      
+         
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+   
+    .section-title {
+      width: 95%;
+    }
+  
+    .container {
+      flex: 0 100%;
+    }
+  
+    .container h2 {
+      text-align: center;
+    }
+  
+    #contact-me p {
+       text-align: center;
+    }
+ 
+    #resume p {
+      text-align: center;
+   }
+    .work img {
+      text-align: center;
+    }
+  
+  }
