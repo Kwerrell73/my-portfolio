@@ -230,6 +230,10 @@
    #headername{
     font-size:20px;
   }
+  #link{
+    font-size:10px;
+    padding-bottom: 20px;
+  }
 
 
 }
