@@ -41,13 +41,13 @@ const Portfolio = () => (
                 </div>
 
                 <div className="col-sm">
-                    <h3 className="projectlabeltwo">Password Generator</h3>
-                    <a className="text-white text-center" href="https://github.com/Kwerrell73/password-generator">Github Repo</a>
+                    <h3 className="projectlabeltwo">Teaching Artist Hub</h3>
+                    <a className="text-white text-center" href="https://github.com/LindseyKrause/Teaching-Artist-Hub/">Github Repo</a>
                     <div style={{
-                        backgroundImage: `url("https://i.imgur.com/4LXVgBj.png")`
+                        backgroundImage: `url("https://i.imgur.com/ahLTLsL.png")`
                     }} className="smallphotosthree">
 
-                        <a href="https://kwerrell73.github.io/password-generator/">Password Generator</a>
+                        <a href="https://teaching-artist-hub.herokuapp.com/">TAH</a>
 
                     </div>
 
