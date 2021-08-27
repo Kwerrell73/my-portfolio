@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import resumePDF from "../../assets/docs/2021DevResume.pdf";
+import resumePDF from "../../assets/docs/2021DevResume2.pdf";
 
 function Resume() {
   return (
